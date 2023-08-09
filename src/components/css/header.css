@@ -1,0 +1,176 @@
+.headerContainer {
+  width: 100vw;
+  height: 4vh;
+  min-height: 60px;
+  /* background: violet; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: solid #ddd 0.25vw; */
+}
+
+.headerTitle {
+  font-size: 1vw;
+  margin-left: 2vw;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headerBTNHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerBTN {
+  font-size: 0.6vw;
+  margin-right: 2vw;
+  text-decoration: none;
+}
+
+.switchHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#bulbBTN {
+  /* background-color: orange; */
+  width: 0.75vw;
+  height: 0.75vw;
+  border-radius: 1vw;
+  /* border: solid 0.15vw black; */
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+#bulb {
+  fill: none;
+  /* stroke: #000000; */
+  stroke-width: 1.5;
+  stroke-miterlimit: 10;
+}
+
+#bulbStreaks {
+  fill: none;
+  /* stroke: #000000; */
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+#bulbIconSVG {
+  stroke: var(--text);
+  transition: stroke 0.5s;
+}
+
+.mobileMenuBTN {
+  display: none;
+}
+
+#settingsDropDown {
+  position: absolute;
+  top: 60px;
+  right: 0.5vw;
+  z-index: 10;
+  transition: height 0.25s, background-color 0.5s;
+  overflow: hidden;
+  height: 0;
+}
+
+#settingsDropDown div {
+  width: 1.75vw;
+  height: 1.75vw;
+  padding: 0.4vw;
+  cursor: pointer;
+}
+
+#listIcon {
+  stroke: var(--text);
+  fill: var(--text);
+  transition: stroke 0.5s, fill 0.5s;
+}
+
+#gridIcon {
+  stroke: var(--text);
+  transition: stroke 0.5s;
+  opacity: 0;
+}
+
+/*        */
+/* MOBILE */
+/*        */
+
+@media only screen and (max-width: 600px) {
+  .headerContainer {
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    z-index: 100;
+  }
+
+  .headerTitle {
+    font-size: 4vw;
+  }
+
+  .mobileMenuBTN {
+    display: block;
+    width: 8vw;
+    height: 8vw;
+    z-index: 1001;
+    position: fixed;
+    right: 3vw;
+    top: calc(4vh - 4vw);
+  }
+
+  .headerBTNHolder {
+    flex-direction: column;
+    height: 60vh;
+    /* margin-bottom: 10vh; */
+    margin-top: 20vh;
+  }
+
+  .headerBTN {
+    font-size: 8vw;
+    font-weight: 600;
+  }
+
+  #lightSwitch {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 15vw;
+    /* margin-top: -10vw; */
+  }
+
+  #bulbBTN {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .switchHolder {
+    z-index: 1000;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    padding-bottom: 20vh;
+  }
+
+  #mobileMenu {
+    transition: right 0.5s ease-in-out, background-color 0.5s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fillTransition {
+    transition: fill 0.5s;
+    fill: var(--text);
+  }
+}

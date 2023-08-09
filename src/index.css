@@ -1,0 +1,64 @@
+html {
+  background-color: var(--bg);
+  transition: background-color 0.5s;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+:root {
+  --text: white;
+  --bg: #212529;
+  --header: #1b1e22;
+}
+
+.redText {
+  color: darkred;
+}
+
+.textColour {
+  color: var(--text);
+  transition: color 0.5s;
+}
+
+.bgColour {
+  background-color: var(--bg);
+  transition: background-color 0.5s;
+}
+
+.textColourInvert {
+  color: var(--bg);
+  transition: color 0.5s;
+}
+
+.bgColourInvert {
+  background-color: var(--text);
+  transition: background-color 0.5s;
+}
+
+.headerColour {
+  background-color: var(--header);
+  transition: background-color 0.5s;
+}
