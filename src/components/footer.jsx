@@ -2,9 +2,8 @@ import './css/footer.css';
 
 function Footer() {
   return (
-    <div>
     <div className="footerContainer">
-    </div>
+      <p className="textColour">Will Westwood &copy; 2023</p>
     </div>
   );
 }

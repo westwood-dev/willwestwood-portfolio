@@ -1,5 +1,5 @@
 import Header from './components/header.jsx';
-// import Footer from './components/footer.jsx';
+import Footer from './components/footer.jsx';
 import Work from './components/work';
 import About from './components/about';
 import Contact from './components/contact';
@@ -17,7 +17,7 @@ function App() {
         <Route path={'/contact'} element={<Contact />} />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -2,7 +2,6 @@
   {
     "id": "0000",
     "tag": "university",
-    "size": "",
     "cover": "/imageDB/0000/diagramCover.jpg",
     "title": "D-I-A-G-R-A-M",
     "date": "01/11/21 - Unit 7",
@@ -248,7 +247,6 @@
   {
     "id": "0001",
     "tag": "university",
-    "size": "",
     "cover": "/imageDB/0001/0004.jpg",
     "title": "The very best of the voices in my head",
     "date": "19.03.21 - Unit 3",
@@ -339,7 +337,6 @@
   {
     "id": "0002",
     "tag": "university",
-    "size": "span-h-2",
     "cover": "imageDB/0002/clockCover.png",
     "title": "Clock²",
     "date": "27.01.2021 - Unit 3",
@@ -389,7 +386,6 @@
   {
     "id": "0003",
     "tag": "university",
-    "size": "span-h-2",
     "cover": "/imageDB/0003/ASCIIMazeSS.png",
     "title": "ASCII Maze",
     "date": "12.03.2021 - Unit 3",
@@ -439,7 +435,6 @@
   {
     "id": "0004",
     "tag": "personal",
-    "size": "span-h-2",
     "cover": "/imageDB/0004/GallerySS3.png",
     "title": "Unlocked Gallery",
     "date": "23.05.2020",
@@ -504,7 +499,6 @@
   {
     "id": "0005",
     "tag": "personal",
-    "size": "span-v-2",
     "cover": "/imageDB/0005/Balcony.jpg",
     "title": "Absent Observation",
     "date": "10.01.2022",
@@ -613,6 +607,67 @@
       {
         "type": "text",
         "data": "Also for the Open Studio I created a baby that would 'observe' the audience, fitted with a webcam and servo motor I had a face detection system that would cause the baby's head to turn towards audience members. I went with a baby as I thought it embodied the idea of role models as if the baby was learning from the audience adding to the discomfort for the audience."
+      }
+    ]
+  },
+  {
+    "id": "0006",
+    "tag": "personal",
+    "cover": "/imageDB/0006/CarPark_01.png",
+    "title": "Car Park",
+    "date": "10.09.2023",
+    "WIP": true,
+    "detail": [
+      {
+        "type": "title",
+        "data": "Car Park"
+      },
+      {
+        "type": "text",
+        "data": "This project is a self-driven exploration into scenes with a car and character as the linking theme"
+      },
+      {
+        "type": "image",
+        "data": {
+          "src": "/imageDB/0006/CarPark_01.png",
+          "alt": "Car in garage with rubbish everywhere and a person in a hazmat suit sat in a plastic chair."
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "src": "/imageDB/0006/CarPark_02.png",
+          "alt": "Car parked outside an american style trailer park, with a man leaning on the bonnet with an old rotary phone."
+        }
+      }
+    ]
+  },
+  {
+    "id": "0007",
+    "tag": "personal",
+    "cover": "/imageDB/0007/PoolFire.png",
+    "title": "Pool Fire",
+    "date": "01.09.2023",
+    "WIP": true,
+    "detail": [
+      {
+        "type": "title",
+        "data": "Pool Fire"
+      },
+      {
+        "type": "text",
+        "data": "This project is an exploration into using fire and explosions within blender and the composition and lighting opportunities provided with that."
+      },
+      {
+        "type": "image",
+        "data": {
+          "src": "/imageDB/0007/PoolFire.png",
+          "alt": "An abandoned American style motel with a car on fire in an empty pool."
+        }
+      },
+      {
+        "type": "text",
+        "data": "I plan to continue this exploration with more scenes in the future."
       }
     ]
   }
