@@ -49,14 +49,19 @@ jobs:
         with:
           # Upload dist repository
           path: './dist'
+      # - name: Compress Images
+      #   uses: clydedz/compress-images@v1
+      #   with:
+      #     input-directory: ./dist/images/*
+      #     output-directory: dist
+      #     jpg-compression-quality: 40
+      #     png-compression-quality: 0.4
+      #     gif-compression-quality: 2
       - name: Compress Images
-        uses: clydedz/compress-images@v1
+        uses: calibreapp/image-actions@main
         with:
-          input-directory: ./dist/images/*
-          output-directory: dist
-          jpg-compression-quality: 40
-          png-compression-quality: 0.4
-          gif-compression-quality: 2
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: true
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
