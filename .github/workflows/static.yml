@@ -61,7 +61,7 @@ jobs:
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          compressOnly: false
+          compressOnly: true
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
