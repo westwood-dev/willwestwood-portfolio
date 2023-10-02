@@ -45,7 +45,7 @@ jobs:
       - name: Compress Images
         uses: clydedz/compress-images@v1
         with:
-          input-directory: images
+          input-directory: images/*
           output-directory: dist
           jpg-compression-quality: 40
           png-compression-quality: 0.4
