@@ -42,8 +42,14 @@ jobs:
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Image Optimizer
-        uses: crush-pics/crush-pics-github-action@v1.0
+      - name: Compress Images
+        uses: clydedz/compress-images@v1
+        with:
+          input-directory: images
+          output-directory: dist
+          jpg-compression-quality: 40
+          png-compression-quality: 0.4
+          gif-compression-quality: 2
       - name: Create CNAME
         run: cd dist && echo "willwestwood.me" > CNAME && cd ..
       - name: Upload artifact

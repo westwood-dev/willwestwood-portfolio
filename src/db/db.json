@@ -2,7 +2,7 @@
   {
     "id": "0000",
     "tag": "university",
-    "cover": "/imageDB/0000/diagramCover.jpg",
+    "cover": "/images/0000/diagramCover.jpg",
     "title": "D-I-A-G-R-A-M",
     "date": "01/11/21 - Unit 7",
     "WIP": true,
@@ -67,67 +67,67 @@
         "type": "imageGrid",
         "data": [
           {
-            "src": "/imageDB/0000/research/image1.png",
+            "src": "/images/0000/research/image1.png",
             "alt": "Audio Waveform",
             "cap": "Audio Waveform"
           },
           {
-            "src": "/imageDB/0000/research/image2.png",
+            "src": "/images/0000/research/image2.png",
             "alt": "Quark pair production",
             "cap": "Quark pair production"
           },
           {
-            "src": "/imageDB/0000/research/image3.png",
+            "src": "/images/0000/research/image3.png",
             "alt": "Feynman diagram",
             "cap": "Feynman diagram"
           },
           {
-            "src": "/imageDB/0000/research/image4.png",
+            "src": "/images/0000/research/image4.png",
             "alt": "A most searching examination",
             "cap": "A most searching examination"
           },
           {
-            "src": "/imageDB/0000/research/image5.png",
+            "src": "/images/0000/research/image5.png",
             "alt": "iPhone schematic",
             "cap": "iPhone schematic"
           },
           {
-            "src": "/imageDB/0000/research/image6.png",
+            "src": "/images/0000/research/image6.png",
             "alt": "100 Great lines from movies",
             "cap": "100 Great lines from movies"
           },
           {
-            "src": "/imageDB/0000/research/image7.png",
+            "src": "/images/0000/research/image7.png",
             "alt": "Code as a diagram",
             "cap": "Code as a diagram"
           },
           {
-            "src": "/imageDB/0000/research/image8.png",
+            "src": "/images/0000/research/image8.png",
             "alt": "Blender shader node tree",
             "cap": "Blender shader node tree"
           },
           {
-            "src": "/imageDB/0000/research/image9.png",
+            "src": "/images/0000/research/image9.png",
             "alt": "CPU structure diagram",
             "cap": "CPU structure diagram"
           },
           {
-            "src": "/imageDB/0000/research/image10.png",
+            "src": "/images/0000/research/image10.png",
             "alt": "Architectural Nonsense",
             "cap": "Architectural Nonsense"
           },
           {
-            "src": "/imageDB/0000/research/image12.png",
+            "src": "/images/0000/research/image12.png",
             "alt": "Heat map",
             "cap": "Heat map"
           },
           {
-            "src": "/imageDB/0000/research/image13.png",
+            "src": "/images/0000/research/image13.png",
             "alt": "Neural networks, visualised",
             "cap": "Neural networks, visualised"
           },
           {
-            "src": "/imageDB/0000/research/image11.png",
+            "src": "/images/0000/research/image11.png",
             "alt": "Map of area around CSM",
             "cap": "Map of area around CSM"
           }
@@ -247,7 +247,7 @@
   {
     "id": "0001",
     "tag": "university",
-    "cover": "/imageDB/0001/0004.jpg",
+    "cover": "/images/0001/0004.jpg",
     "title": "The very best of the voices in my head",
     "date": "19.03.21 - Unit 3",
     "WIP": false,
@@ -263,14 +263,14 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0001.jpg",
+          "src": "/images/0001/0001.jpg",
           "alt": "Book cover"
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0002.jpg",
+          "src": "/images/0001/0002.jpg",
           "alt": "Book cover"
         }
       },
@@ -281,42 +281,42 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0003.jpg",
+          "src": "/images/0001/0003.jpg",
           "alt": "Book cover"
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0004.jpg",
+          "src": "/images/0001/0004.jpg",
           "alt": "Book cover"
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0005.jpg",
+          "src": "/images/0001/0005.jpg",
           "alt": "Book cover"
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0006.jpg",
+          "src": "/images/0001/0006.jpg",
           "alt": "Book cover"
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0007.jpg",
+          "src": "/images/0001/0007.jpg",
           "alt": "Book cover"
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0001/0008.jpg",
+          "src": "/images/0001/0008.jpg",
           "alt": "Book cover"
         }
       },
@@ -337,7 +337,7 @@
   {
     "id": "0002",
     "tag": "university",
-    "cover": "imageDB/0002/clockCover.png",
+    "cover": "images/0002/clockCover.png",
     "title": "Clock²",
     "date": "27.01.2021 - Unit 3",
     "WIP": false,
@@ -353,7 +353,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0002/clockCover.png",
+          "src": "/images/0002/clockCover.png",
           "alt": "Clock screenshot"
         }
       },
@@ -386,7 +386,7 @@
   {
     "id": "0003",
     "tag": "university",
-    "cover": "/imageDB/0003/ASCIIMazeSS.png",
+    "cover": "/images/0003/ASCIIMazeSS.png",
     "title": "ASCII Maze",
     "date": "12.03.2021 - Unit 3",
     "WIP": false,
@@ -402,7 +402,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0003/ASCIIMazeStartPage.png",
+          "src": "/images/0003/ASCIIMazeStartPage.png",
           "alt": "Maze screenshot"
         }
       },
@@ -435,7 +435,7 @@
   {
     "id": "0004",
     "tag": "personal",
-    "cover": "/imageDB/0004/GallerySS3.png",
+    "cover": "/images/0004/GallerySS3.png",
     "title": "Unlocked Gallery",
     "date": "23.05.2020",
     "WIP": false,
@@ -451,7 +451,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0004/GallerySS1.png",
+          "src": "/images/0004/GallerySS1.png",
           "alt": "Gallery screenshot"
         }
       },
@@ -462,7 +462,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0004/GallerySS2.png",
+          "src": "/images/0004/GallerySS2.png",
           "alt": "Gallery screenshot"
         }
       },
@@ -499,7 +499,7 @@
   {
     "id": "0005",
     "tag": "personal",
-    "cover": "/imageDB/0005/Balcony.jpg",
+    "cover": "/images/0005/Balcony.jpg",
     "title": "Absent Observation",
     "date": "10.01.2022",
     "WIP": true,
@@ -517,62 +517,62 @@
         "columns": 3,
         "data": [
           {
-            "src": "/imageDB/0005/Balcony.jpg",
+            "src": "/images/0005/Balcony.jpg",
             "alt": "Balcony",
             "cap": "Balcony"
           },
           {
-            "src": "/imageDB/0005/Garage.jpg",
+            "src": "/images/0005/Garage.jpg",
             "alt": "Garage",
             "cap": "Garage"
           },
           {
-            "src": "/imageDB/0005/Height.jpg",
+            "src": "/images/0005/Height.jpg",
             "alt": "Height",
             "cap": "Height"
           },
           {
-            "src": "/imageDB/0005/LightCast.jpg",
+            "src": "/images/0005/LightCast.jpg",
             "alt": "Room",
             "cap": "Room"
           },
           {
-            "src": "/imageDB/0005/MiddleOfNowhere.jpg",
+            "src": "/images/0005/MiddleOfNowhere.jpg",
             "alt": "Middle Of No Where",
             "cap": "Middle Of No Where"
           },
           {
-            "src": "/imageDB/0005/Raft.jpg",
+            "src": "/images/0005/Raft.jpg",
             "alt": "Raft",
             "cap": "Raft"
           },
           {
-            "src": "/imageDB/0005/Sea.jpg",
+            "src": "/images/0005/Sea.jpg",
             "alt": "Sea",
             "cap": "Sea"
           },
           {
-            "src": "/imageDB/0005/TowerBlock.jpg",
+            "src": "/images/0005/TowerBlock.jpg",
             "alt": "Tower Block",
             "cap": "Tower Block"
           },
           {
-            "src": "/imageDB/0005/Train.jpg",
+            "src": "/images/0005/Train.jpg",
             "alt": "Train",
             "cap": "Train"
           },
           {
-            "src": "/imageDB/0005/Lift.jpg",
+            "src": "/images/0005/Lift.jpg",
             "alt": "Lift",
             "cap": "Lift"
           },
           {
-            "src": "/imageDB/0005/DoorOpen.jpg",
+            "src": "/images/0005/DoorOpen.jpg",
             "alt": "Door Open",
             "cap": "Door Open"
           },
           {
-            "src": "/imageDB/0005/Basement.jpg",
+            "src": "/images/0005/Basement.jpg",
             "alt": "Basement",
             "cap": "Basement"
           }
@@ -585,7 +585,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0005/Cover.jpg",
+          "src": "/images/0005/Cover.jpg",
           "alt": "Publication Cover"
         }
       },
@@ -600,7 +600,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0005/OpenStudio.jpg",
+          "src": "/images/0005/OpenStudio.jpg",
           "alt": "Publication Cover"
         }
       },
@@ -613,7 +613,7 @@
   {
     "id": "0006",
     "tag": "personal",
-    "cover": "/imageDB/0006/CarPark_01.png",
+    "cover": "/images/0006/CarPark_01.png",
     "title": "Car Park",
     "date": "10.09.2023",
     "WIP": true,
@@ -629,14 +629,14 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0006/CarPark_01.png",
+          "src": "/images/0006/CarPark_01.png",
           "alt": "Car in garage with rubbish everywhere and a person in a hazmat suit sat in a plastic chair."
         }
       },
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0006/CarPark_02.png",
+          "src": "/images/0006/CarPark_02.png",
           "alt": "Car parked outside an american style trailer park, with a man leaning on the bonnet with an old rotary phone."
         }
       }
@@ -645,7 +645,7 @@
   {
     "id": "0007",
     "tag": "personal",
-    "cover": "/imageDB/0007/PoolFire.png",
+    "cover": "/images/0007/PoolFire.png",
     "title": "Pool Fire",
     "date": "01.09.2023",
     "WIP": true,
@@ -661,7 +661,7 @@
       {
         "type": "image",
         "data": {
-          "src": "/imageDB/0007/PoolFire.png",
+          "src": "/images/0007/PoolFire.png",
           "alt": "An abandoned American style motel with a car on fire in an empty pool."
         }
       },
