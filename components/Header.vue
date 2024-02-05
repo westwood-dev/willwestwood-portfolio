@@ -21,21 +21,23 @@
 
 <template>
   <div id="header-cont">
-    <div
+    <NuxtLink
+      to="/"
       class="header-section"
       :style="{ color: route.path.split('/')[1] == '' ? 'red' : 'white' }"
     >
       <h1>W.</h1>
       <p>Westwood</p>
-    </div>
+    </NuxtLink>
 
-    <div
+    <NuxtLink
+      to="/work"
       class="header-section"
       :style="{ color: route.path.split('/')[1] == 'work' ? 'red' : 'white' }"
     >
       <h1>Work.</h1>
       <p>two</p>
-    </div>
+    </NuxtLink>
 
     <div
       class="header-section-center"
@@ -47,15 +49,17 @@
       <p>Center</p>
     </div>
 
-    <div
+    <NuxtLink
+      to="/about"
       class="header-section"
       :style="{ color: route.path.split('/')[1] == 'about' ? 'red' : 'white' }"
     >
       <h1>About.</h1>
       <p>four</p>
-    </div>
+    </NuxtLink>
 
-    <div
+    <NuxtLink
+      to="/contact"
       class="header-section"
       :style="{
         color: route.path.split('/')[1] == 'contact' ? 'red' : 'white',
@@ -63,7 +67,7 @@
     >
       <h1>Contact.</h1>
       <p>five</p>
-    </div>
+    </NuxtLink>
   </div>
 </template>
 
@@ -86,8 +90,13 @@ const route = useRoute();
   padding: 0 1em;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header-section h1 {
-  font-family: 'CloisterBlack';
+  font-family: 'Poppins';
   font-size: 65px;
   text-align: center;
   margin: 0;
@@ -95,6 +104,8 @@ const route = useRoute();
 }
 
 .header-section p {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -110,7 +121,7 @@ const route = useRoute();
 }
 
 #header-title {
-  font-family: 'CloisterBlack';
+  font-family: 'Poppins';
   font-size: 80px;
   text-align: center;
   margin: 0;

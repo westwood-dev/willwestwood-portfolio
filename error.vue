@@ -27,7 +27,7 @@ div {
 }
 
 h2 {
-  font-family: 'CloisterBlack';
+  font-family: 'Poppins';
   font-size: 200px;
   text-align: center;
   margin: 0;
