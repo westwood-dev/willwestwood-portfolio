@@ -1,0 +1,3 @@
+<template>
+  <Metaballs />
+</template>
