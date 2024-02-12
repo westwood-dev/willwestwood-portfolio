@@ -1,0 +1,115 @@
+{
+  "id": "0005",
+  "tag": "personal",
+  "cover": "/images/0005/Balcony.jpg",
+  "title": "Absent Observation",
+  "route": "absent-observation",
+  "date": "10.01.2022",
+  "WIP": true,
+  "detail": [
+    {
+      "type": "title",
+      "data": "Absent Observation"
+    },
+    {
+      "type": "text",
+      "data": "This project originated from a response to a university brief around three shapes, Circle, Square and Triangle. I decided to take the breif further as a personal project, I create a new piece for this project every so often and so this will last as a continuing project."
+    },
+    {
+      "type": "imageGrid",
+      "columns": 3,
+      "data": [
+        {
+          "src": "/images/0005/Balcony.jpg",
+          "alt": "Balcony",
+          "cap": "Balcony"
+        },
+        {
+          "src": "/images/0005/Garage.jpg",
+          "alt": "Garage",
+          "cap": "Garage"
+        },
+        {
+          "src": "/images/0005/Height.jpg",
+          "alt": "Height",
+          "cap": "Height"
+        },
+        {
+          "src": "/images/0005/LightCast.jpg",
+          "alt": "Room",
+          "cap": "Room"
+        },
+        {
+          "src": "/images/0005/MiddleOfNowhere.jpg",
+          "alt": "Middle Of No Where",
+          "cap": "Middle Of No Where"
+        },
+        {
+          "src": "/images/0005/Raft.jpg",
+          "alt": "Raft",
+          "cap": "Raft"
+        },
+        {
+          "src": "/images/0005/Sea.jpg",
+          "alt": "Sea",
+          "cap": "Sea"
+        },
+        {
+          "src": "/images/0005/TowerBlock.jpg",
+          "alt": "Tower Block",
+          "cap": "Tower Block"
+        },
+        {
+          "src": "/images/0005/Train.jpg",
+          "alt": "Train",
+          "cap": "Train"
+        },
+        {
+          "src": "/images/0005/Lift.jpg",
+          "alt": "Lift",
+          "cap": "Lift"
+        },
+        {
+          "src": "/images/0005/DoorOpen.jpg",
+          "alt": "Door Open",
+          "cap": "Door Open"
+        },
+        {
+          "src": "/images/0005/Basement.jpg",
+          "alt": "Basement",
+          "cap": "Basement"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": "Some of the pieces are based off of real spaces, others imagined by me. The whole premise is that it forces the audience to be an observer of a space that implies lonelines, this is represented through the plastic garden chair. The shop front scene that includes two chairs is the only one to have two, this is still inline with my thematic as the shop and thus the chairs are in the middle of nowhere."
+    },
+    {
+      "type": "image",
+      "data": {
+        "src": "/images/0005/Cover.jpg",
+        "alt": "Publication Cover"
+      }
+    },
+    {
+      "type": "text",
+      "data": "Originally I had planned for these pieces to be displayed in a small format publication, I felt however, while discussing with peers it lacked the same feeling of observation that I had intended. I wanted the audience to have the eerie sense of looking through a window rather than say watching someone through social media for example. This publication enable people to hide what they were looking at."
+    },
+    {
+      "type": "text",
+      "data": "I printed a few pieces large scale for the Open Studio at university. I had 160 GSM Matt prints at A1 size, the pieces came out perfectly as I had rendered them to exr format and used the CMYK colour space when editing the final renders in Photoshop."
+    },
+    {
+      "type": "image",
+      "data": {
+        "src": "/images/0005/OpenStudio.jpg",
+        "alt": "Publication Cover"
+      }
+    },
+    {
+      "type": "text",
+      "data": "Also for the Open Studio I created a baby that would 'observe' the audience, fitted with a webcam and servo motor I had a face detection system that would cause the baby's head to turn towards audience members. I went with a baby as I thought it embodied the idea of role models as if the baby was learning from the audience adding to the discomfort for the audience."
+    }
+  ]
+}

@@ -4,8 +4,12 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
   />
   <div class="bgColour">
-    <!-- <Header /> -->
-    <NuxtPage />
+    <Header />
+    <div id="scroll-section">
+      <NuxtPage />
+      <!-- <Gallery /> -->
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -46,15 +50,21 @@ body {
   background-color: rgb(var(--text));
   transition: background-color 0.5s;
 }
+
+#scroll-section {
+  overflow-y: scroll;
+  height: calc(100vh - 5vw);
+  box-sizing: border-box;
+}
 </style>
 
-<script>
+<!-- <script setup land="ts">
+import { usePreferredDark } from '@vueuse/core';
+
 const setFavicon = () => {
   const isDark = usePreferredDark();
   const favicon = computed(() =>
-    isDark.value
-      ? '/assets/images/LOGO-white.svg'
-      : '/assets/images/LOGO-black.svg'
+    isDark.value ? '/favicon.ico' : '/favicon.ico'
   );
 
   useFavicon(favicon, {
@@ -64,4 +74,4 @@ const setFavicon = () => {
 onMounted(() => {
   setFavicon();
 });
-</script>
+</script> -->

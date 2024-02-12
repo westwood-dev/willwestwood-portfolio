@@ -1,0 +1,50 @@
+{
+  "id": "0002",
+  "tag": "university",
+  "cover": "images/0002/clockCover.png",
+  "title": "Clock²",
+  "route": "clock2",
+  "date": "27.01.2021 - Unit 3",
+  "WIP": false,
+  "detail": [
+    {
+      "type": "title",
+      "data": "Clock²"
+    },
+    {
+      "type": "text",
+      "data": "This project was a challenge to test my problem solving and web development skills. I was tasked to create a clock in any way I liked, only requirement was to use p5.js."
+    },
+    {
+      "type": "image",
+      "data": {
+        "src": "/images/0002/clockCover.png",
+        "alt": "Clock screenshot"
+      }
+    },
+    {
+      "type": "text",
+      "data": "The 168 analog clock faces form the digital time with the position of their hands creating the numbers and the dividing colon."
+    },
+    {
+      "type": "text",
+      "data": "Live version available bellow, as well as the code."
+    },
+    {
+      "type": "link",
+      "data": {
+        "url": "https://clock.wwstwd.studio/",
+        "target": "_blank",
+        "text": "Live version"
+      }
+    },
+    {
+      "type": "link",
+      "data": {
+        "url": "https://github.com/wwstwd/Clock",
+        "target": "_blank",
+        "text": "Code on GitHub"
+      }
+    }
+  ]
+}

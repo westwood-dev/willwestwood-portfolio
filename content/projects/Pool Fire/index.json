@@ -1,0 +1,30 @@
+{
+  "id": "0007",
+  "tag": "personal",
+  "cover": "/images/0007/PoolFire.png",
+  "title": "Pool Fire",
+  "route": "pool-fire",
+  "date": "01.09.2023",
+  "WIP": true,
+  "detail": [
+    {
+      "type": "title",
+      "data": "Pool Fire"
+    },
+    {
+      "type": "text",
+      "data": "This project is an exploration into using fire and explosions within blender and the composition and lighting opportunities provided with that."
+    },
+    {
+      "type": "image",
+      "data": {
+        "src": "/images/0007/PoolFire.png",
+        "alt": "An abandoned American style motel with a car on fire in an empty pool."
+      }
+    },
+    {
+      "type": "text",
+      "data": "I plan to continue this exploration with more scenes in the future."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "0003",
+  "tag": "university",
+  "cover": "/images/0003/ASCIIMazeSS.png",
+  "title": "ASCII Maze",
+  "route": "ascii-maze",
+  "date": "12.03.2021 - Unit 3",
+  "WIP": false,
+  "detail": [
+    {
+      "type": "title",
+      "data": "ASCII Maze"
+    },
+    {
+      "type": "text",
+      "data": "This project is a 3D maze game built with babylon.js."
+    },
+    {
+      "type": "image",
+      "data": {
+        "src": "/images/0003/ASCIIMazeStartPage.png",
+        "alt": "Maze screenshot"
+      }
+    },
+    {
+      "type": "text",
+      "data": "The maze is generated with the Recursive Backtracking algorithm in 2D, this is then used to form the walls of the maze. The start and end point are always in the same place but the path is generated."
+    },
+    {
+      "type": "text",
+      "data": "Live version available bellow, as well as the code."
+    },
+    {
+      "type": "link",
+      "data": {
+        "url": "https://maze.wwstwd.studio/",
+        "target": "_blank",
+        "text": "Live version"
+      }
+    },
+    {
+      "type": "link",
+      "data": {
+        "url": "https://github.com/wwstwd/ASCIIMaze",
+        "target": "_blank",
+        "text": "Code on GitHub"
+      }
+    }
+  ]
+}

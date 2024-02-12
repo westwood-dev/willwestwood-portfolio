@@ -7,7 +7,19 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/image'],
+  modules: ['@nuxt/image', '@nuxt/content', '@nuxtjs/seo'],
+
+  content: {
+    liveEdit: false,
+  },
+
+  site: {
+    url: 'https://willwestwood.me/',
+    name: 'Will Westwood',
+    description:
+      'Portfolio site for Web and 3D designer/developer William Westwood.',
+    defaultLocale: 'en',
+  },
 
   app: {
     head: {
@@ -15,7 +27,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/svg+xml',
-          href: '/assets/images/LOGO-white.svg',
+          href: '/ww-favicon.svg',
         },
       ],
     },
