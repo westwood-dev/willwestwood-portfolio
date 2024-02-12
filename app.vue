@@ -24,6 +24,16 @@ body {
   color: rgb(var(--text));
   overflow: hidden;
   transition: background-color 0.5s, color 0.5s;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 :root {
@@ -55,6 +65,12 @@ body {
   overflow-y: scroll;
   height: calc(100vh - 5vw);
   box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#scroll-section::-webkit-scrollbar {
+  display: none;
 }
 </style>
 
