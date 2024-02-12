@@ -2,7 +2,7 @@
   <div class="footer-container">
     <div>
       <p>Email</p>
-      <a href="mailto:wwstwd2gmail.com" class="textColour"
+      <a href="mailto:wwstwd@gmail.com" class="textColour"
         >wwstwd@gmail.com<span class="material-symbols-outlined">
           open_in_new
         </span></a
@@ -57,6 +57,7 @@
   padding: 20px 0;
   /* background-color: violet; */
   width: 100vw;
+  box-sizing: border-box;
 }
 
 .footer-container p {
@@ -67,5 +68,37 @@
 
 .footer-container a span {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    height: min-content;
+  }
+
+  .footer-container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .footer-container a {
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+  }
+  .footer-container a span {
+    font-size: 0.5rem;
+  }
 }
 </style>

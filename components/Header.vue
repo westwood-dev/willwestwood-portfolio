@@ -1,20 +1,40 @@
 <template>
-  <div id="header-cont" class="bgColour">
-    <NuxtLink to="/">
-      <h1 class="textColour">William Westwood</h1>
-    </NuxtLink>
-    <p>user@site: ~{{ $route.path }}</p>
+  <div class="header-main-cont">
+    <div v-if="!mobile" class="side-cont"></div>
+    <div id="header-cont" class="bgColour">
+      <NuxtLink to="/">
+        <h1 class="textColour">William Westwood</h1>
+      </NuxtLink>
+      <p>user@site: ~{{ $route.path }}</p>
+    </div>
+    <div v-if="!mobile" class="side-cont"><ThemeChange /></div>
   </div>
 </template>
 
 <script setup lang="ts">
-const route = useRoute();
+const mobile = ref(false);
+mobile.value = window.matchMedia('(max-width: 600px)').matches;
 </script>
 
 <style scoped>
+.header-main-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.side-cont {
+  width: 15vw;
+  display: flex;
+  padding: 0 10px;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 #header-cont {
-  height: min-content;
-  /* background-color: violet; */
+  justify-self: center;
+  width: 60vw;
   height: 5vw;
   display: flex;
   flex-direction: column;
@@ -30,7 +50,7 @@ const route = useRoute();
   font-family: monospace;
   font-size: 3vw;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -39,8 +59,22 @@ const route = useRoute();
   font-family: monospace;
   font-size: 0.8vw;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   margin: 0 0 0 0;
   padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #header-cont {
+    height: 12svw;
+    width: 100vw;
+  }
+
+  #header-cont h1 {
+    font-size: 1.5rem;
+  }
+  #header-cont p {
+    font-size: 0.5rem;
+  }
 }
 </style>

@@ -72,6 +72,12 @@ body {
 #scroll-section::-webkit-scrollbar {
   display: none;
 }
+
+@media screen and (max-width: 600px) {
+  #scroll-section {
+    height: calc(100vh - 12vw);
+  }
+}
 </style>
 
 <!-- <script setup land="ts">

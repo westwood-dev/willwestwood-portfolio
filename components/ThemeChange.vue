@@ -39,4 +39,10 @@ const changeTheme = () => {
   margin: 0 1rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  #theme-symbol {
+    font-size: 1.5rem;
+  }
+}
 </style>

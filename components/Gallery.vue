@@ -28,10 +28,17 @@ const spawnNewInPlace = (e: any) => {
   document.body.appendChild(newImg);
   galleryOpacity.value = 0;
   setTimeout(() => {
-    newImg.style.top = '5vw';
-    newImg.style.left = '0';
-    newImg.style.width = 'calc(100vw - 20px)';
-    newImg.style.height = 'calc(100vh - 5vw - 20px)';
+    if (window.matchMedia('(max-width: 600px)').matches) {
+      newImg.style.top = '12svw';
+      newImg.style.left = '0';
+      newImg.style.width = 'calc(100vw - 20px)';
+      newImg.style.height = 'calc(100vh - 12svw - 20px)';
+    } else {
+      newImg.style.top = '5vw';
+      newImg.style.left = '0';
+      newImg.style.width = 'calc(100vw - 20px)';
+      newImg.style.height = 'calc(100vh - 5vw - 20px)';
+    }
   }, 100);
   setTimeout(() => {
     newImg.remove();
@@ -103,6 +110,7 @@ const routeToProject = (route: string, e: any) => {
   box-sizing: border-box;
   padding: 10px 5px 0px 5px;
   transition: opacity 0.5s linear;
+  height: fit-content;
 }
 
 .project-image {
@@ -165,5 +173,15 @@ const routeToProject = (route: string, e: any) => {
 .gallery-item:hover .project-details {
   opacity: 1;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-text p {
+    font-size: 1rem;
+  }
 }
 </style>

@@ -21,7 +21,7 @@ onBeforeMount(() => {
         <div v-if="item.type == 'text'">
           <p class="project-text">{{ item.data }}</p>
         </div>
-        <div v-else-if="item.type == 'image'">
+        <div v-else-if="item.type == 'image'" class="project-image-cont">
           <NuxtImg
             :src="item.data.src"
             class="project-image"
@@ -29,8 +29,12 @@ onBeforeMount(() => {
           />
         </div>
         <div v-else-if="item.type == 'link'">
-          <a href="{{ item.data.url }}" target="{{ item.data.target }}">
-            <p class="project-text">{{ item.data.text }}</p>
+          <a
+            href="{{item.data.href}}"
+            target="{{ item.data.target }}"
+            class="textColour"
+          >
+            <p>{{ item.data.text }}</p>
           </a>
         </div>
         <div
@@ -87,6 +91,12 @@ onBeforeMount(() => {
   font-size: 1rem;
 }
 
+.project-image-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-image {
   max-width: 90vw;
   max-height: 60vh;
@@ -109,5 +119,29 @@ onBeforeMount(() => {
   font-size: 1rem;
   margin: 0 0 10px 0;
   padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .cover-img {
+    height: calc(100vh - 12svw - 20px);
+  }
+  .project-title {
+    font-size: 2rem;
+  }
+  .project-date {
+    font-size: 1rem;
+  }
+
+  .project-text {
+    font-size: 0.8rem;
+  }
+
+  .project-image {
+    max-width: calc(100vw - 20px);
+  }
+
+  .project-image-grid-caption {
+    font-size: 0.5rem;
+  }
 }
 </style>
