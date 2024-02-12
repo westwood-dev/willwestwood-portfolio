@@ -47,7 +47,7 @@ onBeforeMount(() => {
           <div v-for="img in item.data">
             <NuxtImg
               :src="img.src"
-              alt="img.alt"
+              :alt="img.alt"
               class="project-image-grid-image"
             />
             <p class="project-image-grid-caption">{{ img.cap }}</p>

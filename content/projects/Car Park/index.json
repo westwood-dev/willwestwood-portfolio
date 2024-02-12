@@ -16,18 +16,18 @@
       "data": "This project is a self-driven exploration into scenes with a car and character as the linking theme"
     },
     {
-      "type": "image",
-      "data": {
-        "src": "/images/0006/CarPark_01.png",
-        "alt": "Car in garage with rubbish everywhere and a person in a hazmat suit sat in a plastic chair."
-      }
-    },
-    {
-      "type": "image",
-      "data": {
-        "src": "/images/0006/CarPark_02.png",
-        "alt": "Car parked outside an american style trailer park, with a man leaning on the bonnet with an old rotary phone."
-      }
+      "type": "imageGrid",
+      "columns": "2",
+      "data": [
+        {
+          "src": "/images/0006/CarPark_01.png",
+          "alt": "Car in garage with rubbish everywhere and a person in a hazmat suit sat in a plastic chair."
+        },
+        {
+          "src": "/images/0006/CarPark_02.png",
+          "alt": "Car parked outside an american style trailer"
+        }
+      ]
     }
   ]
 }
