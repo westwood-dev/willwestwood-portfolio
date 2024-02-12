@@ -91,7 +91,7 @@ const routeToProject = (route: string, e: any) => {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 0 5px;
 }
 

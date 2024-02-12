@@ -78,14 +78,6 @@
     {
       "type": "text",
       "data": "The book has no back cover to allude to the fact that this is a continuing thing and that there may never be an end to the issues."
-    },
-    {
-      "type": "link",
-      "data": {
-        "url": "https://google.co.uk",
-        "target": "_blank",
-        "text": "Link Test"
-      }
     }
   ]
 }
