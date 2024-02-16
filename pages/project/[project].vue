@@ -1,63 +1,69 @@
 <script setup>
 const { params } = useRoute();
-const { data } = await useAsyncData('project', () =>
+const { data } = await useAsyncData(params.project, () =>
   queryContent('/project').where({ route: params.project }).findOne()
 );
-// const data = await queryContent('project')
-//   .where({ route: params.project })
-//   .findOne();
 
 onBeforeMount(() => {
-  document.querySelector('#scroll-section').scrollTo({ top: 0 });
+  document.querySelector('#scroll-section')?.scrollTo({ top: 0 });
 });
 </script>
 
 <template>
-  <NuxtImg :src="data.cover" class="cover-img" />
-  <div class="project-details">
-    <h1 class="project-title">{{ data.title }}</h1>
-    <p class="project-date">{{ data.date }}</p>
-    <div>
-      <div v-for="item in data.detail">
-        <div v-if="item.type == 'text'">
-          <p class="project-text">{{ item.data }}</p>
-        </div>
-        <div v-else-if="item.type == 'image'" class="project-image-cont">
-          <NuxtImg
-            :src="item.data.src"
-            class="project-image"
-            :alt="item.data.alt"
-          />
-        </div>
-        <div v-else-if="item.type == 'link'">
-          <a
-            :href="item.data.href"
-            :target="item.data.target"
-            class="textColour"
-          >
-            <p>{{ item.data.text }}</p>
-          </a>
-        </div>
-        <div
-          v-else-if="item.type == 'imageGrid'"
-          class="project-image-grid"
-          :style="{
-            'grid-template-columns': 'repeat(' + item.columns + ', 1fr)',
-          }"
-        >
-          <div v-for="img in item.data">
+  <div>
+    <!-- <div v-if="data"> -->
+    <NuxtImg :src="data.cover" class="cover-img" />
+    <div class="project-details">
+      <h1 class="project-title">{{ data.title }}</h1>
+      <p class="project-date">{{ data.date }}</p>
+      <div>
+        <div v-for="item in data.detail">
+          <div v-if="item.type === 'text'">
+            <p class="project-text">{{ item.data }}</p>
+          </div>
+
+          <div v-else-if="item.type === 'image'" class="project-image-cont">
             <NuxtImg
-              :src="img.src"
-              :alt="img.alt"
-              class="project-image-grid-image"
+              :src="item.data.src"
+              class="project-image"
+              :alt="item.data.alt"
             />
-            <p class="project-image-grid-caption">{{ img.cap }}</p>
+          </div>
+
+          <div v-else-if="item.type === 'link'">
+            <a
+              :href="item.data.href"
+              :target="item.data.target"
+              class="textColour"
+            >
+              <p>{{ item.data.text }}</p>
+            </a>
+          </div>
+
+          <div
+            v-else-if="item.type === 'imageGrid'"
+            class="project-image-grid"
+            :style="{
+              'grid-template-columns': 'repeat(' + item.columns + ', 1fr)',
+            }"
+          >
+            <div v-for="img in item.data">
+              <NuxtImg
+                :src="img.src"
+                :alt="img.alt"
+                class="project-image-grid-image"
+              />
+              <p class="project-image-grid-caption">{{ img.cap }}</p>
+            </div>
+          </div>
+          <div v-else>
+            <!-- <p>Unknown type</p> -->
           </div>
         </div>
       </div>
     </div>
+    <!-- </div> -->
   </div>
-  <!-- {{ data }} -->
 </template>
 
 <style scoped>
@@ -106,7 +112,6 @@ onBeforeMount(() => {
 .project-image-grid {
   display: grid;
   gap: 10px;
-  /* grid-template-columns: repeat(3, 1fr); */
 }
 
 .project-image-grid-image {

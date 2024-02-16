@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data } = await useAsyncData('project', () =>
+const { data } = await useAsyncData('galleryProjects', () =>
   queryContent('/project').only(['title', 'cover', 'route']).find()
 );
 
@@ -46,17 +46,13 @@ const spawnNewInPlace = (e: any) => {
 const routeToProject = (route: string, e: any) => {
   spawnNewInPlace(e);
   setTimeout(() => {
-    router.push(`/project/${route}`);
+    // router.push(`/project/${route}`);
+    navigateTo(`/project/${route}`);
   }, 500);
 };
 </script>
 
 <template>
-  <!-- <ContentDoc path="/db" v-slot="data">
-    <div v-for="(item, index) in data" :key="index" class="gallery-image">
-      <NuxtImg :src="item.cover" />
-    </div>
-  </ContentDoc> -->
   <div id="gallery-root">
     <div class="gallery">
       <div
@@ -80,19 +76,10 @@ const routeToProject = (route: string, e: any) => {
         </div>
       </div>
     </div>
-    <!-- <div>{{ data }}</div> -->
   </div>
 </template>
 
 <style scoped>
-/* .gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-} */
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -101,7 +88,6 @@ const routeToProject = (route: string, e: any) => {
 
 .gallery-item {
   position: relative;
-  /* width: calc(100vw / 3); */
   width: 100%;
   aspect-ratio: 3 / 5;
   box-sizing: border-box;
@@ -113,7 +99,6 @@ const routeToProject = (route: string, e: any) => {
 .project-image {
   width: 100%;
   height: 100%;
-  /* height: calc(100vw * 0.5); */
   object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
@@ -125,7 +110,6 @@ const routeToProject = (route: string, e: any) => {
   position: absolute;
   top: 0;
   left: 0;
-  /* background-color: blueviolet; */
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   border-radius: 10px;

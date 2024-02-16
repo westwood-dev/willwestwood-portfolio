@@ -18,7 +18,6 @@ onMounted(() => {
     mobile.value = window.matchMedia('(max-width: 600px)').matches;
   });
 });
-// mobile.value = window.matchMedia('(max-width: 600px)').matches;
 </script>
 
 <style scoped>

@@ -2,7 +2,6 @@
   "name": "westwood-portfolio",
   "private": true,
   "type": "module",
-  "packageManager": "npm@10.4.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -12,7 +11,7 @@
   },
   "devDependencies": {
     "@types/p5": "^1.7.6",
-    "nuxt": "^3.10.0",
+    "nuxt": "^3.10.2",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
