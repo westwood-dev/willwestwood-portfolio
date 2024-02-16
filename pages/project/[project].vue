@@ -26,13 +26,13 @@ onBeforeMount(() => {
           <NuxtImg
             :src="item.data.src"
             class="project-image"
-            alt="{{ item.data.alt }}"
+            :alt="item.data.alt"
           />
         </div>
         <div v-else-if="item.type == 'link'">
           <a
-            href="{{item.data.href}}"
-            target="{{ item.data.target }}"
+            :href="item.data.href"
+            :target="item.data.target"
             class="textColour"
           >
             <p>{{ item.data.text }}</p>
