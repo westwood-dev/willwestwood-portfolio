@@ -1,15 +1,13 @@
 <script setup lang="ts">
-const data = await queryContent('/projects')
-  .only(['title', 'cover', 'route'])
-  .find();
-// console.log(data);
+const { data } = await useAsyncData('project', () =>
+  queryContent('/project').only(['title', 'cover', 'route']).find()
+);
 
 const router = useRouter();
 
 const galleryOpacity = ref(1);
 
 const spawnNewInPlace = (e: any) => {
-  // console.log(e.srcElement.getBoundingClientRect());
   const clickedEl = e.srcElement;
   const newImg = document.createElement('img');
   newImg.setAttribute('src', clickedEl.getAttribute('src'));
@@ -46,7 +44,6 @@ const spawnNewInPlace = (e: any) => {
 };
 
 const routeToProject = (route: string, e: any) => {
-  // console.log(title, e);
   spawnNewInPlace(e);
   setTimeout(() => {
     router.push(`/project/${route}`);

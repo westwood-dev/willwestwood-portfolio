@@ -1,10 +1,11 @@
 <script setup>
 const { params } = useRoute();
-const data = await queryContent('projects')
-  .where({ route: params.project })
-  .findOne();
-// const articles = await queryContent('articles').where({ title: 'Home' }).findOne()
-// console.log(data);
+const { data } = await useAsyncData('project', () =>
+  queryContent('/project').where({ route: params.project }).findOne()
+);
+// const data = await queryContent('project')
+//   .where({ route: params.project })
+//   .findOne();
 
 onBeforeMount(() => {
   document.querySelector('#scroll-section').scrollTo({ top: 0 });
