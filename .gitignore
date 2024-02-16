@@ -5,6 +5,8 @@
 .nitro
 .cache
 dist
+build
+binding.gyp
 
 # Node dependencies
 node_modules
