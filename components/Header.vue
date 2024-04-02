@@ -52,7 +52,7 @@ onMounted(() => {
 
 #header-cont h1 {
   font-family: monospace;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
   width: 100%;
   margin: 0;
@@ -64,7 +64,7 @@ onMounted(() => {
   font-size: 0.8vw;
   text-align: center;
   width: 100%;
-  margin: 0 0 0 0;
+  margin: 0 0 10px 0;
   padding: 0;
 }
 
@@ -75,7 +75,8 @@ onMounted(() => {
   }
 
   #header-cont h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 5px;
   }
   #header-cont p {
     font-size: 0.5rem;

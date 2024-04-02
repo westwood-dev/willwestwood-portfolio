@@ -83,7 +83,8 @@ const routeToProject = (route: string, e: any) => {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding: 0 5px;
+  gap: 10px;
+  padding: 0 10px;
 }
 
 .gallery-item {
@@ -91,7 +92,7 @@ const routeToProject = (route: string, e: any) => {
   width: 100%;
   aspect-ratio: 3 / 5;
   box-sizing: border-box;
-  padding: 10px 5px 0px 5px;
+  /* padding: 5px 5px 0px 5px; */
   transition: opacity 0.5s linear;
   height: fit-content;
 }
@@ -106,12 +107,12 @@ const routeToProject = (route: string, e: any) => {
 
 .project-cover {
   box-sizing: border-box;
-  margin: 10px 5px 0 5px;
+  /* margin: 10px 5px 0 5px; */
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   opacity: 0.5;
 }

@@ -49,15 +49,19 @@
 
 <style scoped>
 .footer-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  /* height: 8vw; */
-  padding: 20px 0;
-  /* background-color: violet; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px 10px;
   width: 100vw;
   box-sizing: border-box;
+}
+
+.footer-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-container p {
@@ -72,16 +76,12 @@
 
 @media screen and (max-width: 600px) {
   .footer-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     height: min-content;
   }
 
   .footer-container > div {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
