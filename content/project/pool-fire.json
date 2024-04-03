@@ -1,7 +1,7 @@
 {
   "id": "0007",
   "tag": "personal",
-  "cover": "/images/0007/PoolFire.png",
+  "cover": "/images/0007/PoolFire-min.png",
   "title": "Pool Fire",
   "route": "pool-fire",
   "date": "01.09.2023",
@@ -18,7 +18,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0007/PoolFire.png",
+        "src": "/images/0007/PoolFire-min.png",
         "alt": "An abandoned American style motel with a car on fire in an empty pool."
       }
     },

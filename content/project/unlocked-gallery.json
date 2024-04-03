@@ -1,7 +1,7 @@
 {
   "id": "0004",
   "tag": "personal",
-  "cover": "/images/0004/GallerySS3.png",
+  "cover": "/images/0004/GallerySS3-min.png",
   "title": "Unlocked Gallery",
   "route": "unlocked-gallery",
   "date": "23.05.2020",
@@ -18,7 +18,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0004/GallerySS1.png",
+        "src": "/images/0004/GallerySS1-min.png",
         "alt": "Gallery screenshot"
       }
     },
@@ -29,7 +29,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0004/GallerySS2.png",
+        "src": "/images/0004/GallerySS2-min.png",
         "alt": "Gallery screenshot"
       }
     },
@@ -48,7 +48,7 @@
     {
       "type": "link",
       "data": {
-        "url": "https://gallery.wwstwd.studio/",
+        "href": "https://gallery.wwstwd.studio/",
         "target": "_blank",
         "text": "Live version"
       }
@@ -56,7 +56,7 @@
     {
       "type": "link",
       "data": {
-        "url": "https://github.com/wwstwd/gallery",
+        "href": "https://github.com/iwouldntbother/gallery",
         "target": "_blank",
         "text": "Code on GitHub"
       }

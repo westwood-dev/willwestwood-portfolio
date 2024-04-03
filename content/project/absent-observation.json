@@ -1,7 +1,7 @@
 {
   "id": "0005",
   "tag": "personal",
-  "cover": "/images/0005/Balcony.jpg",
+  "cover": "/images/0005/Balcony-min.jpg",
   "title": "Absent Observation",
   "route": "absent-observation",
   "date": "10.01.2022",
@@ -20,62 +20,62 @@
       "columns": 3,
       "data": [
         {
-          "src": "/images/0005/Balcony.jpg",
+          "src": "/images/0005/Balcony-min.jpg",
           "alt": "Balcony",
           "cap": "Balcony"
         },
         {
-          "src": "/images/0005/Garage.jpg",
+          "src": "/images/0005/Garage-min.jpg",
           "alt": "Garage",
           "cap": "Garage"
         },
         {
-          "src": "/images/0005/Height.jpg",
+          "src": "/images/0005/Height-min.jpg",
           "alt": "Height",
           "cap": "Height"
         },
         {
-          "src": "/images/0005/LightCast.jpg",
+          "src": "/images/0005/LightCast-min.jpg",
           "alt": "Room",
           "cap": "Room"
         },
         {
-          "src": "/images/0005/MiddleOfNowhere.jpg",
+          "src": "/images/0005/MiddleOfNowhere-min.jpg",
           "alt": "Middle Of No Where",
           "cap": "Middle Of No Where"
         },
         {
-          "src": "/images/0005/Raft.jpg",
+          "src": "/images/0005/Raft-min.jpg",
           "alt": "Raft",
           "cap": "Raft"
         },
         {
-          "src": "/images/0005/Sea.jpg",
+          "src": "/images/0005/Sea-min.jpg",
           "alt": "Sea",
           "cap": "Sea"
         },
         {
-          "src": "/images/0005/TowerBlock.jpg",
+          "src": "/images/0005/TowerBlock-min.jpg",
           "alt": "Tower Block",
           "cap": "Tower Block"
         },
         {
-          "src": "/images/0005/Train.jpg",
+          "src": "/images/0005/Train-min.jpg",
           "alt": "Train",
           "cap": "Train"
         },
         {
-          "src": "/images/0005/Lift.jpg",
+          "src": "/images/0005/Lift-min.jpg",
           "alt": "Lift",
           "cap": "Lift"
         },
         {
-          "src": "/images/0005/DoorOpen.jpg",
+          "src": "/images/0005/DoorOpen-min.jpg",
           "alt": "Door Open",
           "cap": "Door Open"
         },
         {
-          "src": "/images/0005/Basement.jpg",
+          "src": "/images/0005/Basement-min.jpg",
           "alt": "Basement",
           "cap": "Basement"
         }
@@ -88,7 +88,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0005/Cover.jpg",
+        "src": "/images/0005/Cover-min.jpg",
         "alt": "Publication Cover"
       }
     },
@@ -103,7 +103,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0005/OpenStudio.jpg",
+        "src": "/images/0005/OpenStudio-min.jpg",
         "alt": "Publication Cover"
       }
     },

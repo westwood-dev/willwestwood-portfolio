@@ -1,7 +1,7 @@
 {
   "id": "0000",
   "tag": "university",
-  "cover": "/images/0000/diagramCover.jpg",
+  "cover": "/images/0000/diagramCover-min.jpg",
   "title": "D-I-A-G-R-A-M",
   "route": "d-i-a-g-r-a-m",
   "date": "01/11/21 - Unit 7",
@@ -67,67 +67,67 @@
       "type": "imageGrid",
       "data": [
         {
-          "src": "/images/0000/research/image1.png",
+          "src": "/images/0000/research/image1-min.png",
           "alt": "Audio Waveform",
           "cap": "Audio Waveform"
         },
         {
-          "src": "/images/0000/research/image2.png",
+          "src": "/images/0000/research/image2-min.png",
           "alt": "Quark pair production",
           "cap": "Quark pair production"
         },
         {
-          "src": "/images/0000/research/image3.png",
+          "src": "/images/0000/research/image3-min.png",
           "alt": "Feynman diagram",
           "cap": "Feynman diagram"
         },
         {
-          "src": "/images/0000/research/image4.png",
+          "src": "/images/0000/research/image4-min.png",
           "alt": "A most searching examination",
           "cap": "A most searching examination"
         },
         {
-          "src": "/images/0000/research/image5.png",
+          "src": "/images/0000/research/image5-min.png",
           "alt": "iPhone schematic",
           "cap": "iPhone schematic"
         },
         {
-          "src": "/images/0000/research/image6.png",
+          "src": "/images/0000/research/image6-min.png",
           "alt": "100 Great lines from movies",
           "cap": "100 Great lines from movies"
         },
         {
-          "src": "/images/0000/research/image7.png",
+          "src": "/images/0000/research/image7-min.png",
           "alt": "Code as a diagram",
           "cap": "Code as a diagram"
         },
         {
-          "src": "/images/0000/research/image8.png",
+          "src": "/images/0000/research/image8-min.png",
           "alt": "Blender shader node tree",
           "cap": "Blender shader node tree"
         },
         {
-          "src": "/images/0000/research/image9.png",
+          "src": "/images/0000/research/image9-min.png",
           "alt": "CPU structure diagram",
           "cap": "CPU structure diagram"
         },
         {
-          "src": "/images/0000/research/image10.png",
+          "src": "/images/0000/research/image10-min.png",
           "alt": "Architectural Nonsense",
           "cap": "Architectural Nonsense"
         },
         {
-          "src": "/images/0000/research/image12.png",
+          "src": "/images/0000/research/image12-min.png",
           "alt": "Heat map",
           "cap": "Heat map"
         },
         {
-          "src": "/images/0000/research/image13.png",
+          "src": "/images/0000/research/image13-min.png",
           "alt": "Neural networks, visualised",
           "cap": "Neural networks, visualised"
         },
         {
-          "src": "/images/0000/research/image11.png",
+          "src": "/images/0000/research/image11-min.png",
           "alt": "Map of area around CSM",
           "cap": "Map of area around CSM"
         }
@@ -158,7 +158,7 @@
           "title": "Audio Waveform",
           "site": "Packagist",
           "publisher": "Packagist",
-          "url": "https://packagist.org/packages/maximal/audio-waveform"
+          "href": "https://packagist.org/packages/maximal/audio-waveform"
         },
         {
           "authors": [["Romain", "Madar"]],
@@ -166,7 +166,7 @@
           "title": "Top quark pair production",
           "site": "Romain Madar",
           "publisher": "Romain Madar",
-          "url": "http://romain-madar.com/research.html"
+          "href": "http://romain-madar.com/research.html"
         },
         {
           "authors": [["Joel", "Holdsworth"]],
@@ -174,7 +174,7 @@
           "title": "Feynmann Diagram Gluon Radiation",
           "site": "Wikipedia",
           "publisher": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Feynman_diagram#/media/File:Feynmann_Diagram_Gluon_Radiation.svg"
+          "href": "https://en.wikipedia.org/wiki/Feynman_diagram#/media/File:Feynmann_Diagram_Gluon_Radiation.svg"
         },
         {
           "authors": [["Dan", "Piepenbring"]],
@@ -182,7 +182,7 @@
           "title": "A most searching examination",
           "site": "The Paris Review",
           "publisher": "The Paris Review",
-          "url": "https://www.theparisreview.org/blog/2014/02/27/a-most-searching-examination/"
+          "href": "https://www.theparisreview.org/blog/2014/02/27/a-most-searching-examination/"
         },
         {
           "authors": [["Christian", "Zibreg"]],
@@ -190,7 +190,7 @@
           "title": "Apple posts official iPhone 5s/5c schematics",
           "site": "iDownload Blog",
           "publisher": "iDownload Blog",
-          "url": "https://www.idownloadblog.com/2013/09/16/apple-posts-official-iphone-5s5c-schematics/"
+          "href": "https://www.idownloadblog.com/2013/09/16/apple-posts-official-iphone-5s5c-schematics/"
         },
         {
           "authors": [["Laura", "Sweet"]],
@@ -198,7 +198,7 @@
           "title": "100 Great lines from movies",
           "site": "if it's hip, it's here",
           "publisher": "if it's hip, it's here",
-          "url": "https://www.ifitshipitshere.com/100-diagrams-represent-100-great-lines-from-movies-in-one-poster/"
+          "href": "https://www.ifitshipitshere.com/100-diagrams-represent-100-great-lines-from-movies-in-one-poster/"
         },
         {
           "authors": [["Sibajee", "Ray"]],
@@ -206,7 +206,7 @@
           "title": "Processor of a computer: CPU",
           "site": "Tech in Tangent",
           "publisher": "Tech in Tangent",
-          "url": "https://www.techintangent.com/processor-of-a-computer-cpu/"
+          "href": "https://www.techintangent.com/processor-of-a-computer-cpu/"
         },
         {
           "authors": [["Urbanist"]],
@@ -214,7 +214,7 @@
           "title": "Pointless Diagrams: Daily Architectural Nonsense Drawings",
           "site": "Web Urbanist",
           "publisher": "Urbanist",
-          "url": "https://weburbanist.com/2013/11/26/pointless-diagrams-daily-architectural-nonsense-drawings/"
+          "href": "https://weburbanist.com/2013/11/26/pointless-diagrams-daily-architectural-nonsense-drawings/"
         },
         {
           "authors": [["DATABLOG"]],
@@ -222,7 +222,7 @@
           "title": "Wages throughout the country: how does your area compare?",
           "site": "The Guardian",
           "publisher": "DATABLOG",
-          "url": "https://www.theguardian.com/news/datablog/2011/nov/24/wages-britain-ashe-mapped"
+          "href": "https://www.theguardian.com/news/datablog/2011/nov/24/wages-britain-ashe-mapped"
         },
         {
           "authors": [["Andrew", "Tch"]],
@@ -230,7 +230,7 @@
           "title": "The mostly complete chart of Neural Networks, explained",
           "site": "Towards Data Science",
           "publisher": "Towards Data Science",
-          "url": "https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464"
+          "href": "https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464"
         },
         {
           "authors": [["Apple"]],
@@ -238,7 +238,7 @@
           "title": "Map of area around CSM",
           "site": "DuckDuckGo",
           "publisher": "Apple Maps",
-          "url": "https://duckduckgo.com/?q=central+saint+martins&t=ffab&atb=v295-7__&iax=images&ia=images&iaxm=maps&strict_bbox=0&bbox=51.53843012911433%2C-0.20011741770935032%2C51.48848702843654%2C-0.06965477122497532"
+          "href": "https://duckduckgo.com/?q=central+saint+martins&t=ffab&atb=v295-7__&iax=images&ia=images&iaxm=maps&strict_bbox=0&bbox=51.53843012911433%2C-0.20011741770935032%2C51.48848702843654%2C-0.06965477122497532"
         }
       ]
     }

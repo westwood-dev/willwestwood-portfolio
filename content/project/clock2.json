@@ -1,7 +1,7 @@
 {
   "id": "0002",
   "tag": "university",
-  "cover": "images/0002/clockCover.png",
+  "cover": "images/0002/clockCover-min.png",
   "title": "Clock²",
   "route": "clock2",
   "date": "27.01.2021 - Unit 3",
@@ -18,7 +18,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0002/clockCover.png",
+        "src": "/images/0002/clockCover-min.png",
         "alt": "Clock screenshot"
       }
     },
@@ -33,7 +33,7 @@
     {
       "type": "link",
       "data": {
-        "url": "https://clock.wwstwd.studio/",
+        "href": "https://clock.wwstwd.studio/",
         "target": "_blank",
         "text": "Live version"
       }
@@ -41,7 +41,7 @@
     {
       "type": "link",
       "data": {
-        "url": "https://github.com/wwstwd/Clock",
+        "href": "https://github.com/iwouldntbother/Clock",
         "target": "_blank",
         "text": "Code on GitHub"
       }

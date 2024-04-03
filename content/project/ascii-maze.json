@@ -1,7 +1,7 @@
 {
   "id": "0003",
   "tag": "university",
-  "cover": "/images/0003/ASCIIMazeSS.png",
+  "cover": "/images/0003/ASCIIMazeSS-min.png",
   "title": "ASCII Maze",
   "route": "ascii-maze",
   "date": "12.03.2021 - Unit 3",
@@ -18,7 +18,7 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0003/ASCIIMazeStartPage.png",
+        "src": "/images/0003/ASCIIMazeStartPage-min.png",
         "alt": "Maze screenshot"
       }
     },
@@ -33,7 +33,7 @@
     {
       "type": "link",
       "data": {
-        "url": "https://maze.wwstwd.studio/",
+        "href": "https://maze.wwstwd.studio/",
         "target": "_blank",
         "text": "Live version"
       }
@@ -41,7 +41,7 @@
     {
       "type": "link",
       "data": {
-        "url": "https://github.com/wwstwd/ASCIIMaze",
+        "href": "https://github.com/iwouldntbother/ASCIIMaze",
         "target": "_blank",
         "text": "Code on GitHub"
       }

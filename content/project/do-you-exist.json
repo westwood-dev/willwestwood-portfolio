@@ -1,0 +1,76 @@
+{
+  "id": "0008",
+  "cover": "/images/0008/004-min.png",
+  "title": "DoYouExist?",
+  "route": "do-you-exist",
+  "date": "2023-06-18",
+  "detail": [
+    {
+      "type": "title",
+      "data": "DoYouExist?"
+    },
+    {
+      "type": "text",
+      "data": "This project is an exploration into data privacy and the digital footprint we leave behind. The project is designed to raise awareness about the amount of information that is available about us online and to encourage users to think about their digital footprint."
+    },
+    {
+      "type": "text",
+      "data": "The data is generated, but made to look like it is real. It uses facial recognition to serve the same data to each user."
+    },
+    {
+      "type": "video",
+      "data": {
+        "src": "/videos/0008/000.mp4",
+        "alt": "DoYouExist? - Video",
+        "controls": false,
+        "loop": true,
+        "muted": true,
+        "autoplay": true
+      }
+    },
+    {
+      "type": "imageGrid",
+      "columns": 2,
+      "data": [
+        {
+          "src": "/images/0008/001-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/002-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/003-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/005-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/006-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/007-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "data": {
+        "href": "https://github.com/iwouldntbother/DoYouExist",
+        "target": "_blank",
+        "text": "Code on GitHub"
+      }
+    }
+  ]
+}

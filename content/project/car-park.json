@@ -1,7 +1,7 @@
 {
   "id": "0006",
   "tag": "personal",
-  "cover": "/images/0006/CarPark_01.png",
+  "cover": "/images/0006/CarPark_01-min.png",
   "title": "Car Park",
   "route": "car-park",
   "date": "10.09.2023",
@@ -20,11 +20,11 @@
       "columns": "2",
       "data": [
         {
-          "src": "/images/0006/CarPark_01.png",
+          "src": "/images/0006/CarPark_01-min.png",
           "alt": "Car in garage with rubbish everywhere and a person in a hazmat suit sat in a plastic chair."
         },
         {
-          "src": "/images/0006/CarPark_02.png",
+          "src": "/images/0006/CarPark_02-min.png",
           "alt": "Car parked outside an american style trailer"
         }
       ]

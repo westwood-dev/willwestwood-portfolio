@@ -56,6 +56,16 @@ onBeforeMount(() => {
               <p class="project-image-grid-caption">{{ img.cap }}</p>
             </div>
           </div>
+          <div v-else-if="item.type === 'video'" class="project-video-cont">
+            <video
+              :src="item.data.src"
+              class="project-video"
+              :controls="item.data.controls"
+              :muted="item.data.muted"
+              :autoplay="item.data.autoplay"
+              :loop="item.data.loop"
+            ></video>
+          </div>
           <div v-else>
             <!-- <p>Unknown type</p> -->
           </div>
@@ -125,6 +135,19 @@ onBeforeMount(() => {
   font-size: 1rem;
   margin: 0 0 10px 0;
   padding: 0;
+}
+
+.project-video-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-video {
+  max-width: calc(100svw - 20px);
+  max-height: 80vh;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {

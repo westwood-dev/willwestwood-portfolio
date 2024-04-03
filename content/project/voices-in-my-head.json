@@ -1,7 +1,7 @@
 {
   "id": "0001",
   "tag": "university",
-  "cover": "/images/0001/0004.jpg",
+  "cover": "/images/0001/0004-min.jpg",
   "title": "The very best of the voices in my head",
   "route": "voices-in-my-head",
   "date": "19.03.21 - Unit 3",
@@ -18,14 +18,14 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0001.jpg",
+        "src": "/images/0001/0001-min.jpg",
         "alt": "Book cover"
       }
     },
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0002.jpg",
+        "src": "/images/0001/0002-min.jpg",
         "alt": "Book cover"
       }
     },
@@ -36,42 +36,42 @@
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0003.jpg",
+        "src": "/images/0001/0003-min.jpg",
         "alt": "Book cover"
       }
     },
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0004.jpg",
+        "src": "/images/0001/0004-min.jpg",
         "alt": "Book cover"
       }
     },
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0005.jpg",
+        "src": "/images/0001/0005-min.jpg",
         "alt": "Book cover"
       }
     },
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0006.jpg",
+        "src": "/images/0001/0006-min.jpg",
         "alt": "Book cover"
       }
     },
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0007.jpg",
+        "src": "/images/0001/0007-min.jpg",
         "alt": "Book cover"
       }
     },
     {
       "type": "image",
       "data": {
-        "src": "/images/0001/0008.jpg",
+        "src": "/images/0001/0008-min.jpg",
         "alt": "Book cover"
       }
     },
