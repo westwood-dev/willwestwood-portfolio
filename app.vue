@@ -82,6 +82,12 @@ body {
 }
 </style>
 
+<script setup lang="ts">
+console.log(
+  " _                     _     _       _   _           _   _  \n(_)                   | |   | |     | | | |         | | | |              \n ___      _____  _   _| | __| |_ __ | |_| |__   ___ | |_| |__   ___ _ __ \n| \\ \\ /\\ / / _ \\| | | | |/ _` | '_ \\| __| '_ \\ / _ \\| __| '_ \\ / _ \\ '__|\n| |\\ V  V / (_) | |_| | | (_| | | | | |_| |_) | (_) | |_| | | |  __/ |   \n|_| \\_/\\_/ \\___/ \\__,_|_|\\__,_|_| |_|\\__|_.__/ \\___/ \\__|_| |_|\\___|_|   \nWilliam Westwood // iwouldntbother // wwstwd"
+);
+</script>
+
 <!-- <script setup land="ts">
 import { usePreferredDark } from '@vueuse/core';
 
