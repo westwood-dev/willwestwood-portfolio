@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const { params } = useRoute();
 const { data } = await useAsyncData(params.project, () =>
   queryContent('/project').where({ route: params.project }).findOne()
@@ -7,6 +7,16 @@ const { data } = await useAsyncData(params.project, () =>
 onBeforeMount(() => {
   document.querySelector('#scroll-section')?.scrollTo({ top: 0 });
 });
+
+const fsImageData = ref({ src: '', alt: '' });
+
+const showFSImage = (src: string, alt: string) => {
+  fsImageData.value = { src, alt };
+};
+
+const closeFSImage = () => {
+  fsImageData.value = { src: '', alt: '' };
+};
 </script>
 
 <template>
@@ -27,6 +37,7 @@ onBeforeMount(() => {
               :src="item.data.src"
               class="project-image"
               :alt="item.data.alt"
+              @click="showFSImage(item.data.src, item.data.alt)"
             />
           </div>
 
@@ -52,6 +63,7 @@ onBeforeMount(() => {
                 :src="img.src"
                 :alt="img.alt"
                 class="project-image-grid-image"
+                @click="showFSImage(img.src, img.alt)"
               />
               <p class="project-image-grid-caption">{{ img.cap }}</p>
             </div>
@@ -73,6 +85,13 @@ onBeforeMount(() => {
       </div>
     </div>
     <!-- </div> -->
+    <template v-if="fsImageData.src">
+      <ImageFullscreen
+        :src="fsImageData.src"
+        :alt="fsImageData.alt"
+        @close="closeFSImage"
+      />
+    </template>
   </div>
 </template>
 
@@ -167,6 +186,10 @@ onBeforeMount(() => {
 
   .project-image {
     max-width: calc(100vw - 20px);
+  }
+
+  .project-image-grid {
+    grid-template-columns: 1fr !important;
   }
 
   .project-image-grid-caption {
