@@ -136,6 +136,7 @@ const closeFSImage = () => {
 .project-image {
   max-width: 90vw;
   max-height: 60vh;
+  cursor: pointer;
 }
 
 .project-image-grid {
@@ -148,6 +149,7 @@ const closeFSImage = () => {
   max-height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .project-image-grid-caption {
