@@ -1,14 +1,21 @@
 <script setup lang="ts">
 const { params } = useRoute();
-const { data } = await useAsyncData(params.project, () =>
-  queryContent('/project').where({ route: params.project }).findOne()
+import '~~/types/project.type';
+import type { IProjectDetailDataImage } from '~~/types/project.type';
+
+// const projectData: Ref<Project[]> = ref([]);
+
+const { data } = await useAsyncData(
+  String(params.project),
+  () => queryContent('/project').where({ route: params.project }).findOne(),
+  { lazy: true }
 );
 
 onBeforeMount(() => {
   document.querySelector('#scroll-section')?.scrollTo({ top: 0 });
 });
 
-const fsImageData = ref({ src: '', alt: '' });
+const fsImageData: Ref<IProjectDetailDataImage> = ref({ src: '', alt: '' });
 
 const showFSImage = (src: string, alt: string) => {
   fsImageData.value = { src, alt };
@@ -21,70 +28,70 @@ const closeFSImage = () => {
 
 <template>
   <div>
-    <!-- <div v-if="data"> -->
-    <NuxtImg :src="data.cover" class="cover-img" />
-    <div class="project-details">
-      <h1 class="project-title">{{ data.title }}</h1>
-      <p class="project-date">{{ data.date }}</p>
-      <div>
-        <div v-for="item in data.detail">
-          <div v-if="item.type === 'text'">
-            <p class="project-text">{{ item.data }}</p>
-          </div>
-
-          <div v-else-if="item.type === 'image'" class="project-image-cont">
-            <NuxtImg
-              :src="item.data.src"
-              class="project-image"
-              :alt="item.data.alt"
-              @click="showFSImage(item.data.src, item.data.alt)"
-            />
-          </div>
-
-          <div v-else-if="item.type === 'link'">
-            <a
-              :href="item.data.href"
-              :target="item.data.target"
-              class="textColour"
-            >
-              <p>{{ item.data.text }}</p>
-            </a>
-          </div>
-
-          <div
-            v-else-if="item.type === 'imageGrid'"
-            class="project-image-grid"
-            :style="{
-              'grid-template-columns': 'repeat(' + item.columns + ', 1fr)',
-            }"
-          >
-            <div v-for="img in item.data">
-              <NuxtImg
-                :src="img.src"
-                :alt="img.alt"
-                class="project-image-grid-image"
-                @click="showFSImage(img.src, img.alt)"
-              />
-              <p class="project-image-grid-caption">{{ img.cap }}</p>
+    <div v-if="data">
+      <NuxtImg :src="data.cover" class="cover-img" />
+      <div class="project-details">
+        <h1 class="project-title">{{ data.title }}</h1>
+        <p class="project-date">{{ data.date }}</p>
+        <div>
+          <div v-for="item in data.detail">
+            <div v-if="item.type === 'text'">
+              <p class="project-text">{{ item.data }}</p>
             </div>
-          </div>
-          <div v-else-if="item.type === 'video'" class="project-video-cont">
-            <video
-              :src="item.data.src"
-              class="project-video"
-              :controls="item.data.controls"
-              :muted="item.data.muted"
-              :autoplay="item.data.autoplay"
-              :loop="item.data.loop"
-            ></video>
-          </div>
-          <div v-else>
-            <!-- <p>Unknown type</p> -->
+
+            <div v-else-if="item.type === 'image'" class="project-image-cont">
+              <NuxtImg
+                :src="item.data.src"
+                class="project-image"
+                :alt="item.data.alt"
+                @click="showFSImage(item.data.src, item.data.alt)"
+              />
+            </div>
+
+            <div v-else-if="item.type === 'link'">
+              <a
+                :href="item.data.href"
+                :target="item.data.target"
+                class="textColour"
+              >
+                <p>{{ item.data.text }}</p>
+              </a>
+            </div>
+
+            <div
+              v-else-if="item.type === 'imageGrid'"
+              class="project-image-grid"
+              :style="{
+                'grid-template-columns': 'repeat(' + item.columns + ', 1fr)',
+              }"
+            >
+              <div v-for="img in item.data">
+                <NuxtImg
+                  :src="img.src"
+                  :alt="img.alt"
+                  class="project-image-grid-image"
+                  @click="showFSImage(img.src, img.alt)"
+                />
+                <p class="project-image-grid-caption">{{ img.cap }}</p>
+              </div>
+            </div>
+            <div v-else-if="item.type === 'video'" class="project-video-cont">
+              <video
+                :src="item.data.src"
+                class="project-video"
+                :controls="item.data.controls"
+                :muted="item.data.muted"
+                :autoplay="item.data.autoplay"
+                :loop="item.data.loop"
+              ></video>
+            </div>
+            <div v-else>
+              <!-- <p>Unknown type</p> -->
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- </div> -->
     <template v-if="fsImageData.src">
       <ImageFullscreen
         :src="fsImageData.src"

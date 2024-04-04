@@ -1,9 +1,13 @@
 <script setup lang="ts">
-const { data } = await useAsyncData('galleryProjects', () =>
-  queryContent('/project').only(['title', 'cover', 'route']).find()
+const { data } = await useAsyncData(
+  'galleryProjects',
+  () =>
+    queryContent('/project')
+      .only(['title', 'cover', 'route'])
+      .sort({ id: -1 })
+      .find(),
+  { lazy: true }
 );
-
-const router = useRouter();
 
 const galleryOpacity = ref(1);
 
@@ -17,9 +21,9 @@ const spawnNewInPlace = (e: any) => {
   newImg.style.margin = '10px';
   newImg.style.borderRadius = '10px';
   newImg.style.top = `${clickedEl.getBoundingClientRect().top}px`;
-  newImg.style.left = `${clickedEl.getBoundingClientRect().left}px`;
+  newImg.style.left = `${clickedEl.getBoundingClientRect().left - 10}px`;
   newImg.style.width = `${clickedEl.getBoundingClientRect().width}px`;
-  newImg.style.height = `${clickedEl.getBoundingClientRect().height}px`;
+  newImg.style.height = `${clickedEl.getBoundingClientRect().height - 10}px`;
   newImg.style.zIndex = '1000';
   newImg.style.objectFit = 'cover';
   newImg.style.transition = 'all 0.5s ease-in-out';
@@ -46,7 +50,6 @@ const spawnNewInPlace = (e: any) => {
 const routeToProject = (route: string, e: any) => {
   spawnNewInPlace(e);
   setTimeout(() => {
-    // router.push(`/project/${route}`);
     navigateTo(`/project/${route}`);
   }, 500);
 };
