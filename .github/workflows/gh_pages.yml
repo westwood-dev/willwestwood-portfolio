@@ -17,7 +17,7 @@ jobs:
       - run: npm install
       - run: npx nuxt build --preset github_pages
       - name: Create CNAME
-        run: cd .output && echo "willwestwood.me" > CNAME && cd ..
+        run: cd .output && echo "williamwestwood.com" > CNAME && cd ..
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
