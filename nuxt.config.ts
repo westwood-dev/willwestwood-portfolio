@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/image', '@nuxt/content'],
+  modules: ['@nuxt/image', '@nuxt/content', '@nuxtjs/seo'],
 
   app: {
     head: {
@@ -33,5 +33,13 @@ export default defineNuxtConfig({
       // crawlLinks: true,
       routes: [...routes],
     },
+  },
+
+  site: {
+    url: 'https://williamwestwood.com',
+    name: 'William Westwood',
+    description:
+      'William Westwood is a web developer and designer based in London, UK.',
+    defaultLocale: 'en',
   },
 });
