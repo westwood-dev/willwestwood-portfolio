@@ -63,6 +63,7 @@ const routeToProject = (route: string, e: any) => {
         :key="index"
         class="gallery-item"
         :style="{ opacity: galleryOpacity }"
+        tabindex="0"
       >
         <NuxtImg
           class="project-image"
