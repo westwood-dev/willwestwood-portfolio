@@ -45,6 +45,8 @@ const closeFSImage = () => {
                 class="project-image"
                 :alt="item.data.alt"
                 @click="showFSImage(item.data.src, item.data.alt)"
+                sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                format="webp"
               />
             </div>
 
@@ -71,6 +73,8 @@ const closeFSImage = () => {
                   :alt="img.alt"
                   class="project-image-grid-image"
                   @click="showFSImage(img.src, img.alt)"
+                  sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                  format="webp"
                 />
                 <p class="project-image-grid-caption">{{ img.cap }}</p>
               </div>

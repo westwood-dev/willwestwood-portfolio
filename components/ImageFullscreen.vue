@@ -1,6 +1,12 @@
 <template>
   <div class="fs-image-cont" @click="emit('close')">
-    <NuxtImg :src="src" class="fs-image" :alt="alt" />
+    <NuxtImg
+      :src="src"
+      class="fs-image"
+      :alt="alt"
+      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+      format="webp"
+    />
     <span
       @click="emit('close')"
       class="fs-image-close material-symbols-outlined"

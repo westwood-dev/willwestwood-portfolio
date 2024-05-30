@@ -68,7 +68,10 @@ const routeToProject = (route: string, e: any) => {
         <NuxtImg
           class="project-image"
           :src="item.cover"
+          :alt="item.title + ' cover image'"
           @click="routeToProject(item.route, $event)"
+          sizes="xl:20vw lg:30vw md:40vw sm:50vw xs:100vw"
+          format="webp"
         />
         <div class="project-details">
           <div class="project-cover bgColour"></div>
