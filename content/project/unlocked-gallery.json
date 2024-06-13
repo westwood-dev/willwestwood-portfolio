@@ -5,6 +5,7 @@
   "title": "Unlocked Gallery",
   "route": "unlocked-gallery",
   "date": "23.05.2020",
+  "hidden": false,
   "WIP": false,
   "detail": [
     {

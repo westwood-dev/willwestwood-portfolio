@@ -5,6 +5,7 @@
   "title": "Pool Fire",
   "route": "pool-fire",
   "date": "01.09.2023",
+  "hidden": false,
   "WIP": true,
   "detail": [
     {

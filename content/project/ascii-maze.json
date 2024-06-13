@@ -5,6 +5,7 @@
   "title": "ASCII Maze",
   "route": "ascii-maze",
   "date": "12.03.2021 - Unit 3",
+  "hidden": false,
   "WIP": false,
   "detail": [
     {

@@ -5,6 +5,7 @@
   "title": "Absent Observation",
   "route": "absent-observation",
   "date": "10.01.2022",
+  "hidden": false,
   "WIP": true,
   "detail": [
     {

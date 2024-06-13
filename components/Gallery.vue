@@ -3,6 +3,7 @@ const { data } = await useAsyncData(
   'galleryProjects',
   () =>
     queryContent('/project')
+      .where({ hidden: false })
       .only(['title', 'cover', 'route'])
       .sort({ id: -1 })
       .find(),
@@ -16,7 +17,7 @@ const spawnNewInPlace = (e: any) => {
   const newImg = document.createElement('img');
   newImg.setAttribute('src', clickedEl.getAttribute('src'));
   newImg.id = 'newImg';
-  newImg.style.backgroundColor = 'red';
+  // newImg.style.backgroundColor = 'red';
   newImg.style.position = 'fixed';
   newImg.style.margin = '10px';
   newImg.style.borderRadius = '10px';

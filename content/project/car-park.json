@@ -5,6 +5,7 @@
   "title": "Car Park",
   "route": "car-park",
   "date": "10.09.2023",
+  "hidden": false,
   "WIP": true,
   "detail": [
     {

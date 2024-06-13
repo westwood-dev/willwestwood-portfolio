@@ -4,6 +4,7 @@
   "title": "DoYouExist?",
   "route": "do-you-exist",
   "date": "2023-06-18",
+  "hidden": false,
   "detail": [
     {
       "type": "title",

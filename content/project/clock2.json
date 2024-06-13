@@ -5,6 +5,7 @@
   "title": "Clock²",
   "route": "clock2",
   "date": "27.01.2021 - Unit 3",
+  "hidden": false,
   "WIP": false,
   "detail": [
     {
