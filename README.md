@@ -4,8 +4,10 @@
 
 ## TODO
 
-1. Remove old code
-2. Add more projects
-3. Get project details showing correctly
-4. Build Action for GitHub Pages deployment
-5. Add image compression (preferably automated at build)
+- [x] Remove old code
+- [x] Add more projects
+- [x] Get project details showing correctly
+- [x] Build Action for GitHub Pages deployment
+- [x] Add image compression (preferably automated at build)
+- [ ] Fix visual bugs with the image grid (vertical spacing)
+- [ ] Improve text formatting on larger displays

@@ -1,0 +1,81 @@
+{
+  "id": "0009",
+  "cover": "/images/0009/ai-morality-09.jpg",
+  "title": "AI Morality Assessment",
+  "route": "ai-morality-assessment",
+  "date": "2024-06-11",
+  "hidden": true,
+  "detail": [
+    {
+      "type": "title",
+      "data": "AI Morality Assessment"
+    },
+    {
+      "type": "text",
+      "data": "What moral issues stem from excessive integration of Artificial Intelligence into creative tools?"
+    },
+    {
+      "type": "text",
+      "data": "This project explores the ethical dimensions of artificial intelligence (AI) through an interactive system designed to spark critical conversations about AI morality. The core of the project is an assessment tool that challenges you to navigate ethical dilemmas involving AI rights, decision-making capabilities, and human responsibilities towards AI. "
+    },
+    {
+      "type": "text",
+      "data": "By merging research, design, and technology, this project creates an interactive experience that promotes critical thinking about AI ethics. The integrated system of digital and physical components effectively communicates your ethical perspectives and fosters meaningful discussions, highlighting the importance of ethical considerations in AI development."
+    },
+    {
+      "type": "video",
+      "data": {
+        "src": "/videos/0008/000.mp4",
+        "alt": "DoYouExist? - Video",
+        "controls": false,
+        "loop": true,
+        "muted": true,
+        "autoplay": true
+      }
+    },
+    {
+      "type": "imageGrid",
+      "columns": 2,
+      "data": [
+        {
+          "src": "/images/0008/001-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/002-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/003-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/005-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/006-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        },
+        {
+          "src": "/images/0008/007-min.png",
+          "alt": "DoYouExist?",
+          "cap": ""
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "data": {
+        "href": "https://github.com/iwouldntbother/DoYouExist",
+        "target": "_blank",
+        "text": "Code on GitHub"
+      }
+    }
+  ]
+}
