@@ -2,13 +2,13 @@
   <div class="footer-container">
     <div>
       <p>Email</p>
-      <a href="mailto:wwstwd@gmail.com" class="textColour"
-        >wwstwd@gmail.com<span class="material-symbols-outlined">
+      <a href="mailto:hello@williamwestwood.com" class="textColour"
+        >hello@williamwestwood.com<span class="material-symbols-outlined">
           open_in_new
         </span></a
       >
     </div>
-    <div>
+    <!-- <div>
       <p>Instagram</p>
       <a
         href="http://instagram.com/westwood.portfolio"
@@ -19,7 +19,7 @@
           open_in_new
         </span></a
       >
-    </div>
+    </div> -->
     <div>
       <p>LinkedIn</p>
       <a
@@ -35,11 +35,11 @@
     <div>
       <p>GitHub</p>
       <a
-        href="https://www.github.com/iwouldntbother/"
+        href="https://www.github.com/williamwestwood/"
         target="_blank"
         rel="noopener noreferrer"
         class="textColour"
-        >iwouldntbother<span class="material-symbols-outlined">
+        >williamwestwood<span class="material-symbols-outlined">
           open_in_new
         </span></a
       >
@@ -50,7 +50,8 @@
 <style scoped>
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(minmax(350px, 1fr)); */
   gap: 10px;
   padding: 20px 10px;
   width: 100vw;
